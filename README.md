@@ -70,14 +70,16 @@ go mod tidy
 
 2. Edit `.env` dan isi dengan nilai yang sesuai:
    ```env
-   DISCORD_TOKEN=your_discord_bot_token_here
-   OPENROUTER_API_KEY=your_openrouter_api_key_here
-   GOOGLE_SEARCH_API_KEY=your_google_search_api_key_here
-   GOOGLE_SEARCH_ENGINE_ID=40d5fbdf4db1945d9
+   DISCORD_TOKEN=value
+   OPENROUTER_API_KEY=value
+   GOOGLE_SEARCH_API_KEY=value
+   GOOGLE_SEARCH_ENGINE_ID=value
    BOT_PREFIX=/
    MAX_CONCURRENT_DOWNLOADS=3
    MAX_FILE_SIZE=100
    ```
+
+3. **PENTING**: Ganti `your_discord_bot_token_here` dengan token bot Discord Anda yang sebenarnya.
 
 ## Penggunaan
 
