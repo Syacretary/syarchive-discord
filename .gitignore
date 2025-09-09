@@ -1,0 +1,24 @@
+# Binaries
+discord-bot
+*.exe
+*.exe~
+
+# Environment files
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+/tmp/
+/downloads/
+
+# Logs
+*.log

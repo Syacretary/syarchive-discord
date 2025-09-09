@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  discord-bot:
+    build: .
+    container_name: discord-bot
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - BOT_PREFIX=${BOT_PREFIX}
+      - MAX_CONCURRENT_DOWNLOADS=${MAX_CONCURRENT_DOWNLOADS}
+      - MAX_FILE_SIZE=${MAX_FILE_SIZE}
+    volumes:
+      - ./downloads:/tmp
+      - .env:/root/.env
+    restart: unless-stopped
