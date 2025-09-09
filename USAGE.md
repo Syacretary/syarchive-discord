@@ -88,13 +88,13 @@ Bot ini menggunakan file `.env` untuk konfigurasi. Salin `.env.example` ke `.env
 DISCORD_TOKEN=your_discord_bot_token_here
 
 # API key OpenRouter (diperlukan untuk fitur AI)
-OPENROUTER_API_KEY=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
+OPENROUTER_API_KEY=your_openrouter_api_key_here
 
 # Google Custom Search API Key (diperlukan untuk fitur web search)
-GOOGLE_SEARCH_API_KEY=AIzaSyBSY49ZrSKY7lRs9bX3V1Sd11jYuntScBw
+GOOGLE_SEARCH_API_KEY=your_google_search_api_key_here
 
 # Google Custom Search Engine ID (diperlukan untuk fitur web search)
-GOOGLE_SEARCH_ENGINE_ID=40d5fbdf4db1945d9
+GOOGLE_SEARCH_ENGINE_ID=your_search_engine_id_here
 
 # Prefix perintah bot (opsional, default: /)
 BOT_PREFIX=/

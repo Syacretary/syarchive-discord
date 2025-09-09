@@ -71,8 +71,8 @@ go mod tidy
 2. Edit `.env` dan isi dengan nilai yang sesuai:
    ```env
    DISCORD_TOKEN=your_discord_bot_token_here
-   OPENROUTER_API_KEY=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
-   GOOGLE_SEARCH_API_KEY=AIzaSyBSY49ZrSKY7lRs9bX3V1Sd11jYuntScBw
+   OPENROUTER_API_KEY=your_openrouter_api_key_here
+   GOOGLE_SEARCH_API_KEY=your_google_search_api_key_here
    GOOGLE_SEARCH_ENGINE_ID=40d5fbdf4db1945d9
    BOT_PREFIX=/
    MAX_CONCURRENT_DOWNLOADS=3
